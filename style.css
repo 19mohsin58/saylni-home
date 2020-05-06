@@ -1,0 +1,1000 @@
+html,body{
+	height: 100%
+	width:100%;
+	margin: 0px;
+	padding: 0px;
+	
+	scroll-behavior: smooth;
+}
+
+
+
+
+/*<!------Start Of MAINLINE---->*/
+.mainline{
+	width: 100%;
+	height:auto;
+	background-color: #316DC3;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+	
+}
+
+
+
+/*<!------Start Of Icons---->*/
+.icons{
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	margin-left: 2cm;
+	width: 250px;
+	text-align: center;
+	
+	align-items: center;
+}
+
+
+@media screen and (max-width: 1125px){
+	.p{
+		
+		width: 300px;
+		font-size: 10px;
+		margin-top: 0px;
+    	margin-right: 1cm;
+	}
+	.icons{
+			margin-right: 2cm;
+			
+	}
+
+}
+
+/*@media screen and (max-width: 600px){
+	.p{
+		width: 300px;
+		font-size: 13px;
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+}*/
+
+
+.im{
+	margin:7px;
+
+}
+
+.im:hover{
+	background-color: #427adb;
+}
+
+/*<!------End OF ICONS---->*/
+
+
+
+
+/*<!------Start Of Side Paragraph on bule top---->*/
+.p{
+	flex-flow: wrap;
+	flex-direction: row;
+	color: white;
+	text-align: center;
+	padding:;
+	width: 500px;
+	background-color:;
+	font-family: 'Open Sans', sans-serif; 
+	font-weight: ;
+	font-size: 15px;
+	margin-left: 1.3cm;
+	margin-top: 15px;
+}
+/*<!------Start Of Side Paragraph on bule top---->*/
+
+
+
+/*<!------Start Of Side Button---->*/
+.side>li{
+	;
+	display: inline-block;
+	border: 1px solid gray;
+	background-color: #ebf0ec;
+	color: #58823e;
+	height: 30px;
+	text-align: center;
+	padding-top: 7px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-top: 5px;
+	font-family: Arial;
+	cursor: pointer;
+}
+
+
+.butt{
+	
+	
+	width: 300px;
+	background-color:none;
+   height: 38px;
+    font-size: 11px;
+    margin-right: 2.7cm;
+    margin-top: 7px; 
+}
+/*<!------End Of Side Button---->*/
+
+/*<!------End Of Blue line at top---->*/
+
+
+
+
+
+
+/*<!------Start Of NAVBAR BUTTONS---->*/
+ul>li>a{
+		font-size: 14px;
+		font-weight: bold;
+		border-radius: 25px;
+		margin-left: -5px; 
+		transition: 0.6s;
+
+}
+
+.dropdown:hover>.dropdown-menu{
+	display: block;
+	transition: 0.6s;
+}
+
+/*<!-----Hover Designs to the buttons neechy---->*/
+
+a:hover{
+	background-color: #316DC3;
+	color: white !important;
+	border-radius: 25px;
+	transition: 0.5s;
+	
+}
+/*<!------Start Of NAVBAR BUTTONS---->*/
+
+
+
+/*<!------Sardar Full---->*/
+
+
+
+
+.navbar{
+			
+			
+			z-index: 100;
+			/*box-shadow: 5px 0px 10px gray;*/
+			
+
+			
+}
+   
+
+
+   /*<!------This is for Home Button---->*/
+#bh{
+	color: white !important;
+	border-radius: 25px;
+	background-color: #316DC3;
+}
+	/*<!------This is for Home Button---->*/
+
+
+
+
+
+/*<!------Saylani LOgo---->*/
+.nav-brand{
+	margin-left: -20px;
+
+}
+/*<!------Saylani LOgo---->*/
+
+
+
+
+
+
+
+
+/*<!-----Drop Down ITEMS---->*/
+
+/*<!------Start Of Drop Down Of NAv Buttons Like HOme---->*/
+.dropdown-item{
+				font-size: 13px;
+				color: gray;
+				font-weight: bold;
+				transition: 0.6s;
+				z-index: /*<!------ese hi lagaya tha checkup k liye---->*/
+}
+/*<!------End Of Drop Down Of NAv Buttons Like HOme---->*/
+
+
+/*<!------Start Of Hover design Drop Down Of NAv Buttons Like HOme---->*/
+.dropdown-item:hover{
+	visibility: visible;
+	background-color:#316DC3;
+	padding-left: 0px; 
+	border-radius: 0px;
+	text-decoration: none;
+	transition: 0.5s;
+}
+/*<!------End Of Hover design Drop Down Of NAv Buttons Like HOme---->*/
+/*<!-----End of Drop Down ITEMS---->*/
+
+
+
+
+
+
+/*<!-----Sart Of Merque Design---->*/
+.linetext{	
+			margin-top: 15px;
+			margin-bottom: 15px;
+			padding-top: 3px;
+			height: 29px;
+			width: 1165px;	
+			background-color: #427adb;
+			margin-left: 2.2cm;
+			color: white;
+			font-family: cambria;
+}
+/*<!-----END  Of Merque Design---->*/
+
+
+
+
+
+
+.pait{
+	background-color:#f7fafa; 
+	
+}
+
+h1{
+	text-align: center;
+	color: #366bc7;
+	padding-top: 60px;
+	font-family: Cambria;
+	font-size: 38px;
+	font-weight: bold;
+}
+
+#green{
+	color: green;
+	font-size:38px;
+	font-weight: bold;
+}
+
+.favicon{
+	margin-top: -px;
+	text-align: center;
+	max-height: 600px;
+	position: relative;
+
+}
+
+.favicon:before{
+	content: "";
+	display: block;
+	width:40px;
+	height: 2px;
+	background: green;
+	position: absolute;
+	left: 44.5%;
+	top:67%;
+}
+
+
+
+.favicon:after{
+	content: "";
+	display: block;
+	width:40px;
+	height: 2px;
+	background: green;
+	position: absolute;
+	right: 44.5%;
+	top:67%;
+}
+
+
+
+.introtext{
+	width:925px;
+	line-height: 1.8em;
+	text-align: justify;
+	font-family: Arial;
+	font-size: 15px;
+	color: gray;
+	padding-bottom: 100px;
+	padding-top: 12px;
+	
+}
+
+.upbtn{
+	position:fixed;
+	bottom: 15px;
+	right:15px;
+	opacity: 0.1;
+}
+
+.upbtn:hover{
+	background-color: black;
+	opacity: 1;
+}
+
+
+
+/*END OF INTROTEXT*/
+
+
+
+/*blue line start*/
+.con{
+	width: 100%
+	height:auto;
+	background-color: #0456e0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+
+
+}
+
+.bo{
+	width: 20%;
+	height: 300px;
+	background-color:none;
+	margin: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 40px;
+
+}
+
+
+/*Media Queri Start*/
+@media screen and (max-width: 1200px){
+	.bo{
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 600px){
+	.bo{
+		width: 90%;
+	}
+}
+/*Media Query End*/
+
+	#p{color: white;
+	font-family: cambria;
+	font-weight: bold;
+	margin-top: 20px;
+	
+}
+
+#month{
+        color: #40ff05;
+        font-size: 20px;
+}
+
+
+.food{
+	
+	margin-top: 5px;
+	text-align: center;
+}
+
+
+.health{
+	
+	margin-top: 5px;
+	text-align: center;
+}
+
+
+
+.doctor{
+	
+	margin-top: 5px;
+	text-align: center;
+}
+
+
+
+
+.student{
+	
+	margin-top: 5px;
+	text-align: center;
+}
+
+
+
+
+#no1{
+	font-size: 50px;
+	font-family: MV Boli;
+	font-weight: bold italic;
+	color: white;
+}
+
+
+
+
+#no2{
+	font-size: 50px;
+	font-family: MV Boli;
+	font-weight: bold italic;
+	color: white;
+}
+
+
+
+
+#no3{
+	font-size: 50px;
+	font-family: MV Boli;
+	font-weight: bold italic;
+	color: white;
+}
+
+
+
+
+#no4{
+	font-size: 50px;
+	font-family: MV Boli;
+	font-weight: bold italic;
+	color: white;
+}
+/*END OF BLUE LINE*/
+
+
+
+
+
+
+
+
+/*START OF SIX BOXES*/
+
+.wd{
+	background-color:#f7fafa;
+	width: 100%
+	height auto; 
+	flex-flow: wrap;
+	flex-direction: row;
+}
+
+.cont{
+	width: 100%
+	height:auto;
+	background-color: #f7fafa;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-flow: wrap;
+
+
+}
+
+.bo1{
+	width: 360px;
+	height: 185px;
+	background-color:white;
+	/*margin: 10px;*/
+	box-sizing: border-box;
+	text-align: center;
+	padding-top: 40px;
+	font-weight:bold ;
+	font-family: cambria;
+	font-size: 21px;
+	background: white;
+	color: #0456e0; 
+	text-align: center;
+	box-shadow: 0px 0px 20px 0px #c1c4c0;
+	margin-bottom: 1.5cm;
+	margin-top: 1cm;
+
+}
+
+
+
+/*Media Queri Start*/
+@media screen and (max-width: 1200px){
+	.bo1{
+		width: 40%;
+	}
+	.h1 #green .favicon{
+		
+	}
+}
+
+@media screen and (max-width: 600px){
+	.bo1{
+		width: 90%;
+	}
+	.ic{
+		height: 20px;
+	}
+}
+/*END OF SIX BOXES*/
+
+
+
+/*START OF UPCOMIG PROJECTS*/
+
+/*START OF 4 BOXES of MISSION AND UPCOMING PROJETS*/
+
+/*START OF 4 BOXES of MISSION AND UPCOMING PROJETS*/
+
+.te{
+	margin-left: cm;
+	font-size: 27px;
+	font-family: cambria;
+	color: #0456e0;
+	font-weight: bold;
+	
+	padding-top: 30px;
+
+}
+
+.te:after{
+	content: "";
+	display: block;
+	width:60px;
+	height: 2px;
+	background: green;
+	margin-top: 10px;
+	
+}
+
+
+
+main{
+	overflow-x: hidden;
+	background-color:white;
+
+}
+
+.fbox{
+	display: inline-block;
+	height: 70px;
+	width: 360px;
+	background-color: #f7fafa;
+	box-shadow: 0px 0px 1px 1px #d9dbde;
+	box-sizing: border-box;
+	margin-top: 20px;
+}
+
+
+
+.hst{
+	margin-top: -30px;
+	margin-left: 2.1cm;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: cambria;
+	color: #0456e0;
+}
+
+
+.hos{
+	margin-left: 20px;
+	margin-top: 17px;
+}
+
+
+
+
+.events{
+	
+	padding-top: 0px;
+
+	
+	width: 450px;
+	height: 340px;
+	background-color:;
+
+}
+
+
+.ue{
+		
+		justify-content: center;
+		padding-top: 30px;
+		margin-right: 3cm; ;
+		font-weight: bold;
+		font-size: 27px;
+		color: #0456e0;
+		font-family: cambria;
+		background-color: ;
+}
+
+
+.ue:after{
+	content: "";
+	display: block;
+	width:60px;
+	height: 2px;
+	background: green;
+	margin-top: 10px;
+	margin-left: 1.7cm;
+}
+
+
+
+
+#sctext{
+	padding-top: 20px;
+	margin-left: 1.7cm;
+	color: gray;
+	text-align: justify;
+	line-height: 1.5em;
+
+}
+
+.bl{
+	color:blue;
+	cursor: pointer;
+}
+
+/*START OF UPCOMING EVENTS*/
+
+
+
+
+
+/*START OF GALLERY*/
+
+.gallery{
+	clear: left;
+	background-color: white;
+}
+
+
+#i2{
+	text-align: center;
+	color: #366bc7;
+	padding-top: 100px;
+	font-family: Cambria;
+	font-size: 38px;
+}
+
+#g{
+	color: green;
+	font-size:38px;
+}
+
+.ig{
+	margin-top: 30px;
+	
+	padding-bottom: 5cm;
+}
+
+.pics{
+	margin: -1px;
+	cursor: pointer;
+	transition: 0.8s;
+}
+
+.pics:hover{
+			color: white;
+			box-shadow: inset 0px 0px 20px 0px;
+			border-radius: 25px;
+			transition: 0.8s;
+			width: 250px;
+			height: 180px;
+			border: 1px solid #0456e0;
+}
+
+
+/*END OF GALLERY*/
+
+
+
+/*<!-- START OF FOOTER FROM HERE -->*/
+
+.ficons>li{
+	display: inline-block;
+	padding: 5px;
+}
+
+.useful{
+	color: white;
+	font-weight: bold;
+	margin-left: 1.2cm;
+
+}
+
+.useful:after{
+	content: "";
+	display: block;
+	width:60px;
+	height: 2px;
+	background: green;
+	margin-top: 15px;}
+
+
+
+.heado{
+	color: #999;
+	padding-left: 20px;
+}
+#UAN{
+	color:#999; 
+	list-style: none;
+}
+.footer-top{
+	background-color: #242424;
+	padding: 80px 0;
+}
+#worldi{
+	padding-left: 5px;
+}
+.connect{
+	color: white;
+	padding-left: 40px;
+
+	font-weight: bold;
+}
+#conicon{
+	opacity: 0.4
+}
+
+
+.cr{
+	background-color: #3d7ce3;
+	height: 50px;
+	font-size: 12px;
+	color: white;
+	font-family: arial;
+	padding-top: 15px;
+	padding-left: 4cm;
+}
+
+/*<!-- END   OF FOOTER FROM HERE -->*/
+
+
+
+
+
+/*START  OF COPYRIGHT*/
+
+	
+
+/*ENDD OF COPYRIGHT*/
+
+
+
+
+
+
+
+
+
+	/* START OF MERQUEE MEDIA SETEd*/
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+  .linetext {
+    width: 700px;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 780px) {
+  .linetext {
+  		width: 500px;}
+  }
+
+
+  @media screen and (max-width: 580px) {
+  .linetext {
+  		width: 300px;}
+  }
+
+
+
+  @media screen and (max-width: 400px) {
+  .linetext {
+  		width: 230px;
+  		;
+  	}
+
+  }
+
+	/* END OF MERQUEE MEDIA SETEd*/
+
+
+
+
+
+
+
+
+	/* START OF BLUE TOP SETTING*/
+
+
+  
+@media screen and (max-width: 992px) {
+  .p {
+    width: 500px;
+  }
+}
+
+
+@media screen and (max-width: 780px) {
+  .p {
+  		width: 400px;
+  	}
+  }
+
+
+  @media screen and (max-width: 580px) {
+  .p{
+  		width: 300px;}
+  }
+
+
+
+  @media screen and (max-width: 400px) {
+  
+  .mainline{
+  	height: 300px;
+  }
+
+  .p{
+  		margin-top: -1cm;
+  		width: 240px;}
+
+  		.icons{
+  			margin-top: -10px;
+			margin-right: 2cm;
+			padding: 0px;
+	}
+	.butt{
+		margin-top: -2cm;
+		height: 
+		width: 100px;
+		margin-left: 1.5cm;
+		
+	}
+.side>li{
+	display: block;
+	  }
+}
+/* END OF BLUE TOP SETTING*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* On screens that are 992px or less, set the background color to blue */
+/*@media screen and (max-width: 1200px) {
+  .events {
+    margin-top: -8cm;
+
+  }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+/*INTRO TEXT KI MEDIA QUERY START HAI YAHAN SE*/
+
+
+@media screen and (max-width: 992px) {
+  h1 {
+   font-size: 25px;
+  }
+
+  #green{
+  	font-size: 25px;
+  }
+  #ic{
+  	height: 20px;
+  }
+
+  .introtext{
+  	width: 600px;
+  	font-size: 12px;
+  	justify-content: center;
+  	
+  }
+  .favicon:after{
+  	width: 20px;
+  	position: absolute;
+	right: 42%;
+	top:67%;
+  }
+.favicon:before{
+  	width: 20px;
+  	position: absolute;
+	left: 42%;
+	top:67%;
+  }
+}
+
+
+
+
+  @media screen and (max-width: 630px) {
+  .introtext{
+
+  	font-size: 12px;
+  	justify-content: center;
+  		width: 500px}
+  }
+
+
+
+
+  @media screen and (max-width: 530px) {
+  .introtext{
+
+  		font-size: 12px;
+  		text-align: justify;;
+  		width: 400px}
+
+  		 .favicon:after{
+  		width: 20px;
+  		position: absolute;
+		right: 40%;
+		top:67%;
+  }
+		.favicon:before{
+  		width: 20px;
+  		position: absolute;
+		left: 40%;
+		top:67%;
+  }
+
+
+  }
+
+
+
+  @media screen and (max-width: 430px) {
+  .introtext{
+
+  		font-size: 12px;
+  		text-align: justify;
+  		width: 300px}
+  }
+
+/*INTRO TEXT KI MEDIA QUERY KHTM YAHAN PAR*/
+
+
+
+
